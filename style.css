@@ -1,3 +1,19 @@
-body {
-  background-color: beige;
+.container {
+  background-image: radial-gradient(
+    circle 943px at 3.2% 53%,
+    rgba(237, 150, 78, 0.75) 0%,
+    rgba(238, 93, 123, 0.75) 90%
+  );
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
 }
