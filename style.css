@@ -15,8 +15,8 @@ body {
 
 .txtover figcaption {
   position: absolute;
-  top: 25%;
-  left: 2%;
+  top: 12%;
+  left: 5%;
 }
 
 h1 {
@@ -54,23 +54,13 @@ button {
   font-family: "Poppins", sans-serif;
   font-size: 2rem;
   padding: 1em 1em;
-  border-radius: 2em;
+  border-radius: 4em;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1050px) {
   h1 {
-    font-size: 1.05rem;
-  }
-
-  @media (max-width: 1050px) {
-    h1 {
-      font-size: 2rem;
-    }
-  }
-
-  @media (max-width: 300px) {
-    h1 {
-      font-size: 0.75rem;
-    }
+    font-size: 2rem;
+    position: absolute;
+    height: 4rem;
   }
 }
