@@ -9,11 +9,18 @@ body {
   background-color: rgb(231, 222, 222);
 }
 
+.txtover {
+  position: relative;
+}
+
+.txtover figcaption {
+  position: absolute;
+  top: 25%;
+  left: 2%;
+}
+
 h1 {
   font-family: "Montserrat", sans-serif;
-  position: absolute;
-  top: 8rem;
-  right: 20rem;
   color: rgb(233, 227, 227);
   font-size: 9rem;
   text-shadow: 2px 2px 2px black;
@@ -26,7 +33,12 @@ h2 {
 h3 {
   font-family: "Poppins", sans-serif;
   position: relative;
-  bottom: 10rem;
+  bottom: 12rem;
+}
+
+.muphyperrilla2 {
+  position: relative;
+  bottom: 12rem;
 }
 
 button {
