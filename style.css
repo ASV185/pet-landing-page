@@ -30,17 +30,7 @@ p {
   font-family: "Work Sans", sans-serif;
 }
 
-button {
-  background-color: none;
-  border: solid 2px 2px 2px rgb(255, 255, 255);
-  color: black;
-  font-family: "Poppins", sans-serif;
-  font-size: small;
-  padding: 1em 1em;
-  border-radius: 4em;
-}
-
-button:hover {
+.informative-section a {
   background: #0052d4; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -56,6 +46,15 @@ button:hover {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
   border: none;
+  padding: 1em 1em;
+  font-size: 15px;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+}
+
+.informative-section a:hover {
+  color: white;
 }
 
 .top-photos-container img:hover {
