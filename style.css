@@ -5,11 +5,16 @@ body {
 h1 {
   font-family: "Merriweather", serif;
   color: black;
-  font-size: 12rem;
   text-shadow: 2px 2px 2px black;
   position: absolute;
   top: 20%;
   right: 37%;
+  transition-property: font-size;
+  transition-duration: 4s;
+}
+
+h1:hover {
+  font-size: 5rem;
 }
 
 h2 {
@@ -51,4 +56,12 @@ button:hover {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
   border: none;
+}
+
+.top-photos-container img:hover {
+  transform: scale(1.75);
+}
+
+.memories-container img:hover {
+  transform: scale(1.75);
 }
