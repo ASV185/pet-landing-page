@@ -1,35 +1,15 @@
 body {
-  background: #4e54c8; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #8f94fb,
-    #4e54c8
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #8f94fb,
-    #4e54c8
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-.container {
-  background-color: rgb(231, 222, 222);
-}
-
-.txtover {
-  position: relative;
-}
-
-.txtover figcaption {
-  position: absolute;
-  top: 12%;
-  left: 5%;
+  background-color: #eadfd7;
 }
 
 h1 {
-  font-family: "Montserrat", sans-serif;
-  color: rgb(233, 227, 227);
-  font-size: 9rem;
+  font-family: "Merriweather", serif;
+  color: black;
+  font-size: 12rem;
   text-shadow: 2px 2px 2px black;
+  position: absolute;
+  top: 20%;
+  right: 37%;
 }
 
 h2 {
@@ -41,35 +21,34 @@ h3 {
   bottom: 12rem;
 }
 
+p {
+  font-family: "Work Sans", sans-serif;
+}
+
 button {
-  background: #4e54c8; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #8f94fb,
-    #4e54c8
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #8f94fb,
-    #4e54c8
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  border: none;
-  color: white;
-  bottom: 9rem;
+  background-color: none;
+  border: solid 2px 2px 2px rgb(255, 255, 255);
+  color: black;
   font-family: "Poppins", sans-serif;
-  font-size: 2rem;
+  font-size: small;
   padding: 1em 1em;
   border-radius: 4em;
 }
 
-@media (max-width: 1050px) {
-  h1 {
-    position: absolute;
-  }
-
-  @media (max-width: 360px) {
-    h1 {
-      display: none;
-    }
-  }
+button:hover {
+  background: #0052d4; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #6fb1fc,
+    #4364f7,
+    #0052d4
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #6fb1fc,
+    #4364f7,
+    #0052d4
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  border: none;
 }
