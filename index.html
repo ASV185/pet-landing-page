@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet Landing Page</title>
-    <link rel="stylesheet" href="style.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,6 +19,73 @@
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
 
 </head>
+<style>
+    body {
+        background-color: #eadfd7;
+    }
+
+    h1 {
+        font-family: "Merriweather", serif;
+        color: black;
+        text-shadow: 2px 2px 2px black;
+        position: absolute;
+        top: 20%;
+        right: 37%;
+        transition-property: font-size;
+        transition-duration: 4s;
+    }
+
+    h1:hover {
+        font-size: 5rem;
+    }
+
+    h2 {
+        font-family: "Poppins", sans-serif;
+    }
+
+    h3 {
+        font-family: "Poppins", sans-serif;
+        bottom: 12rem;
+    }
+
+    p {
+        font-family: "Work Sans", sans-serif;
+    }
+
+    .informative-section a {
+        background: #0052d4;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right,
+                #6fb1fc,
+                #4364f7,
+                #0052d4);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right,
+                #6fb1fc,
+                #4364f7,
+                #0052d4);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color: white;
+        border: none;
+        padding: 1em 1em;
+        font-size: 15px;
+        text-decoration: none;
+        font-family: "Poppins", sans-serif;
+        font-weight: bolder;
+    }
+
+    .informative-section a:hover {
+        color: white;
+    }
+
+    .top-photos-container img:hover {
+        transform: scale(1.75);
+    }
+
+    .memories-container img:hover {
+        transform: scale(1.75);
+    }
+</style>
 
 <body>
     <header>
@@ -124,7 +190,7 @@
                                 they are loved, cared for, and cherish until they pass away just like a person. A dog is
                                 a
                                 loyal
-                                campion
+                                companion
                                 to
                                 the person that takes care of them and deserve to have a home.
                             </p>
