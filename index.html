@@ -20,14 +20,35 @@
 
 </head>
 <style>
+    :root {
+        --primary-color: black;
+        --secondary-color: #eadfd7;
+        --third-color: white;
+        --accent-color: #0052d4;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right,
+                #6fb1fc,
+                #4364f7,
+                #0052d4);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right,
+                #6fb1fc,
+                #4364f7,
+                #0052d4);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        --primary-font-family: "Merriweather", serif;
+        --secondary-font-family: "Poppins", sans-serif;
+        --accent-font-family: "Work Sans", sans-serif;
+    }
+
     body {
-        background-color: #eadfd7;
+        background-color: var(--secondary-color);
     }
 
     h1 {
-        font-family: "Merriweather", serif;
-        color: black;
-        text-shadow: 2px 2px 2px black;
+        font-family: var(--primary-font-family);
+        color: var(--primary-color);
+        text-shadow: 2px 2px 2px var(--primary-color);
         position: absolute;
         top: 20%;
         right: 37%;
@@ -40,42 +61,31 @@
     }
 
     h2 {
-        font-family: "Poppins", sans-serif;
+        font-family: var(--secondary-font-family);
     }
 
     h3 {
-        font-family: "Poppins", sans-serif;
+        font-family: var(--secondary-font-family);
         bottom: 12rem;
     }
 
     p {
-        font-family: "Work Sans", sans-serif;
+        font-family: var(--accent-font-family);
     }
 
     .informative-section a {
-        background: #0052d4;
-        /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right,
-                #6fb1fc,
-                #4364f7,
-                #0052d4);
-        /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right,
-                #6fb1fc,
-                #4364f7,
-                #0052d4);
-        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        color: white;
+        background: var(--accent-color);
+        color: var(--third-color);
         border: none;
         padding: 1em 1em;
         font-size: 15px;
         text-decoration: none;
-        font-family: "Poppins", sans-serif;
+        font-family: var(--secondary-font-family);
         font-weight: bolder;
     }
 
     .informative-section a:hover {
-        color: white;
+        color: var(--third-color);
     }
 
     .top-photos-container img:hover {
